@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<suite name="suite1"  preserve-order="true"> 
-    <test name="baidutest">
-        <classes>
-            <class name="com.zwy.AutoTestDem.before" />
-        </classes>
-    </test>
-</suite>
