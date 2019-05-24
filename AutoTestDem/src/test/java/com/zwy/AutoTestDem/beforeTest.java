@@ -1,6 +1,5 @@
 package com.zwy.AutoTestDem;
 
-import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -8,7 +7,7 @@ import org.testng.annotations.Test;
 
 public class beforeTest {
 	
-	public  Logger logger = Logger.getLogger(this.getClass());
+//	public  Logger logger = Logger.getLogger(this.getClass());
 	String url = "http://www.baidu.com";
 	@Test
 	public void name() {
@@ -43,7 +42,7 @@ public class beforeTest {
 		catch (Exception e){
 			// TODO: handle finally clause
 			
-					logger.error(e);
+//					logger.error(e);
 		}
 		
 		
