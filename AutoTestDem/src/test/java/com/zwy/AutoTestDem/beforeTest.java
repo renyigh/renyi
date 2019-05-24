@@ -4,6 +4,7 @@ import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.annotations.Test;
 
 public class beforeTest {
@@ -17,8 +18,9 @@ public class beforeTest {
 	     
 		try {
 			System.setProperty("webdriver.chrome.driver", "C:/Users/renyi/Desktop/aa/chromedriver.exe");
-	        
-	        WebDriver driver = new ChromeDriver();
+			ChromeOptions options=new ChromeOptions();
+			options.setBinary("C:/Users/renyi/AppData/Local/Google/Chrome/Application/chrome.exe");
+			WebDriver driver = new ChromeDriver(options);
 	        driver.get("http://www.baidu.com");
 			 
 //	        driver.get(url); // 打开指定的网站
