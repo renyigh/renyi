@@ -16,7 +16,7 @@ public class beforeTest {
 	    
 	     
 		try {
-			System.setProperty("webdriver.chrome.driver", "C:/Users/renyi/Desktop/aa/chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver", "C:/Users/renyi/AppData/Local/Google/Chrome/Application/chromedriver.exe");
 			ChromeOptions options=new ChromeOptions();
 			options.setBinary("C:/Users/renyi/AppData/Local/Google/Chrome/Application/chrome.exe");
 			ChromeDriver  driver= new ChromeDriver(options);
